@@ -1,0 +1,24 @@
+
+# Игнорировать виртуальные окружения и кеши
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Конфигурации IDE и локальные артефакты
+.vscode/
+.idea/
+*.log
+
+# Docker и git
+.git
+.gitignore
+Dockerfile*
+docker-compose*.yml
+
+# Массивные каталоги с данными
+data/
+tmp/
